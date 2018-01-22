@@ -1,12 +1,12 @@
 ## Basic Configuration
 
 ### Launch webportal
-In `appliance_console`, we can check either `ManageIQ Server` is running or not. If not then we can start it by entering digit `14` in the advanced setting.  After that when we hit IPv4 address which is given in `appliance_console` in web browser we can see the ManageIQ's Log In page.
+In `appliance_console`, we need to check either `ManageIQ Server` is up. If not then we can start it by entering digit `14` in the advanced setting.  After that when we hit IPv4 address which is given in `appliance_console` in web browser we can see the ManageIQ's Login page.
 
 ![login](../images/chapter1/manageiq_login.png "ManageIQ Log In Page")
 
 ### Log In
-There are default credentials for ManageIQ. We can change it but we will discuss it later here.
+There are default credentials for ManageIQ. We can change it but we will discuss it later.
 
 - **Login:** admin
 - **Password:** smartvm
@@ -15,7 +15,7 @@ Now we can see the dashboard which looks like following image
 
 ![dashboard](../images/chapter1/manageiq_dashboard.png "ManageIQ Dashboard")
 
-In the extreme left, we can see the vertical navigation bar. We can easily navigate through elements in menu from those bars.
+In the extreme left, we can see the vertical navigation bar. We can easily navigate through elements from menus of this bar.
 
 ### Change Configuration
 In upper right corner, we can see dropdown bar for EVM. Go to **EVM  &rarr;  Configuration**
@@ -26,13 +26,13 @@ Here, we can see
 
 #### In Setting section
 
-- **Hostname, IP Address :** hostname and IP of appliance is shown
+- **Hostname, IP Address :** hostname and IP of appliance is shown.
 
-- **Company Name :** Company Name is shown but we can change it and that name is reflected over interface
+- **Company Name :** Company Name is shown but we can change it and that name is reflected over interface.
 
-- **Zone, Appliance Time Zone and Default Locale:** You can change default time zone and locale as per wish
+- **Zone, Appliance Time Zone and Default Locale:** You can change default time zone and locale as per wish.
 
-- **Server Control** decides roles of each appliance. So don't On any options without need and put all other options default
+- **Server Control** decides roles of each appliance. So don't enable any options just keep them as it is unless you need any specifically.
 
 #### In Access Control
 
@@ -42,7 +42,7 @@ We can change default credentials of User. Also we can use Groups and Role secti
 
 ### My Settings
 
-In EVM's dropdown go to My Settings i.e **EVM &rarr; My Settings**. We can change visual, Default views, Default Filters and Time Profiles of interface.
+In EVM's dropdown go to My Settings i.e **EVM &rarr; My Settings**. We can change Visual, Default views, Default Filters and Time Profiles of interface.
 
 ![my settings](../images/chapter1/manageiq_mysettings.png "My Settings")
 
