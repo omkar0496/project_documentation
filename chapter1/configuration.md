@@ -1,7 +1,7 @@
 ## Basic Configuration
 
 ### Launch webportal
-In `appliance_console`, we need to check either `ManageIQ Server` is up. If not then we can start it by entering digit `14` in the advanced setting.  After that when we hit IPv4 address which is given in `appliance_console` in web browser we can see the ManageIQ's Login page.
+In `appliance_console`, we need to check whether `ManageIQ Server` is up. If not then we can start it by entering digit `14` in the advanced setting.  After that when we hit IPv4 address which is given in `appliance_console` in web browser we can see the ManageIQ's Login page.
 
 ![login](../images/chapter1/manageiq_login.png "ManageIQ Log In Page")
 
@@ -34,7 +34,8 @@ Here, we can see
 
 - **Server Control** decides roles of each appliance. So don't enable any options just keep them as it is unless you need any specifically.
 
-We are going to use Ansible Embedded server role from this menu in upcoming chapter.
+| Note | We are going to use Ansible Embedded server role from this menu in upcoming chapter.|
+|------|:------|
 #### In Access Control
 
 We can change default credentials of User. Also we can use Groups and Role section in appliance for ease.
@@ -49,10 +50,3 @@ In EVM's dropdown go to My Settings i.e **EVM &rarr; My Settings**. We can chang
 
 
 That defines apperance of UI as well as Default Start Page. So you can customize it.
-
-****
-
-
-
-
-
