@@ -15,10 +15,10 @@ Now we can see the dashboard which looks like following image
 
 ![dashboard](../images/chapter1/manageiq_dashboard.png "ManageIQ Dashboard")
 
-In the extreme left, we can see the vertical navigation bar. We can easily navigate through elements from menus of this bar.
+In the extreme left, we can see the vertical navigation bar. We can easily navigate through elements from menus of this navbar.
 
 ### Change Configuration
-In upper right corner, we can see dropdown bar for EVM. Go to **EVM  &rarr;  Configuration**
+In upper right corner, we can see dropdown menu for EVM. Go to **EVM  &rarr;  Configuration**
 
 ![server configuration](../images/chapter1/manageiq_configuration.png "EVM Configuration")
 
@@ -26,7 +26,7 @@ Here, we can see
 
 #### In Setting section
 
-- **Hostname, IP Address :** hostname and IP of appliance is shown.
+- **Hostname, IP Address :** hostname and IP address of appliance is shown.
 
 - **Company Name :** Company Name is shown but we can change it and that name is reflected over interface.
 
@@ -34,6 +34,7 @@ Here, we can see
 
 - **Server Control** decides roles of each appliance. So don't enable any options just keep them as it is unless you need any specifically.
 
+We are going to use Ansible Embedded server role from this menu in upcoming chapter.
 #### In Access Control
 
 We can change default credentials of User. Also we can use Groups and Role section in appliance for ease.
@@ -48,6 +49,8 @@ In EVM's dropdown go to My Settings i.e **EVM &rarr; My Settings**. We can chang
 
 
 That defines apperance of UI as well as Default Start Page. So you can customize it.
+
+****
 
 
 
