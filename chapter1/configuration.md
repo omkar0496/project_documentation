@@ -34,7 +34,7 @@ Here, we can see
 
 - **Server Control** decides roles of each appliance. So don't enable any options just keep them as it is unless you need any specifically.
 
-| Note | We are going to use Ansible Embedded server role from this menu in upcoming chapter.|
+| Note | We are going to use Embedded Ansible server role from this menu in upcoming chapter.|
 |------|:------|
 #### In Access Control
 
