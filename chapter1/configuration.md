@@ -1,7 +1,7 @@
 ## Basic Configuration
 
 ### Launch webportal
-In `appliance_console`, we need to check whether `ManageIQ Server` is up. If not then we can start it by entering digit `14` in the advanced setting.  After that when we hit IPv4 address which is given in `appliance_console` in web browser we can see the ManageIQ's Login page.
+In `appliance_console`, we need to check whether ManageIQ Server is up. If not then we can start it by entering digit `14` in the advanced setting.  After that when we hit IPv4 address which is given in `appliance_console` in web browser we can see the ManageIQ's Login page.
 
 ![login](../images/chapter1/manageiq_login.png "ManageIQ Log In Page")
 
