@@ -1,9 +1,9 @@
 ## Launch Instance in OpenStack
 Instances are nothing but virtual machines inside the cloud. We can launch instance using images, volumes or by using snapshots of previous instance.
 
-After login, Goto **Project &rarr; Compute &rarr; Images** where all the uploaded images are present. User can create several instances from single image.
+After login, goto **Project &rarr; Compute &rarr; Images** where all the uploaded images are present. User can create several instances from single image.
 
-After creating specified image we need to create specified volume, Goto **Project &rarr; Compute &rarr; Volumes &rarr; Create Volume**. To enable persistent storage we need **volume** which is block storage device attached to instance.
+After creating specified image we need to create specified volume, goto **Project &rarr; Compute &rarr; Volumes &rarr; Create Volume**. To enable persistent storage we need **volume** which is block storage device attached to instance.
 
 
 ### Launch Instance
